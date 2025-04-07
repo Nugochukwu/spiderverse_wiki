@@ -64,6 +64,9 @@ footer {
     border-top: 5px solid rgb(0, 0, 0);
     border-bottom: 5px solid rgb(0, 0, 0);
 }
+figcaption{
+    font-size: medium;
+}
 
 h1 {
     padding: 100px;
@@ -121,11 +124,16 @@ section .logo img:hover{
     flex-wrap: wrap;
 }
 img{
-    width: 200px;
-    height: 250px;
+
+    width: 100%;
+    height: auto;
+        margin: 20px;
     transition: transform 0.3s ease-in-out;
 }
-
+features{
+    max-width: 200px;
+    max-height: auto;
+}
 
 .linkedimage:hover{
     transform: translateY(-20px);
