@@ -65,7 +65,9 @@ footer {
     border-bottom: 5px solid rgb(0, 0, 0);
 }
 figcaption{
+    max-width: 80%;
     font-size: medium;
+    padding: 20px;
 }
 
 h1 {
@@ -118,25 +120,32 @@ section .logo img{
 }
 section .logo img:hover{
     transform: translateY(-5px) scale(1.5);
+    color: white;
 }
+
 .imgLinkContainer{
     display: flex;
     flex-wrap: wrap;
 }
+.imgLinkContainer div{
+    background-color: rgb(61, 61, 61);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+}
 img{
-
-    width: 100%;
-    height: auto;
-        margin: 20px;
-    transition: transform 0.3s ease-in-out;
-}
-features{
-    max-width: 200px;
-    max-height: auto;
+    margin: 30px;
+    width: 210px;
+    height: 200px;
+    border-radius: 20px;
 }
 
+.linkedimage{
+transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
 .linkedimage:hover{
     transform: translateY(-20px);
+    box-shadow: rgb(207, 203, 207) 0 0 40px;
 }
 li {
     display: ruby-base;
@@ -158,15 +167,13 @@ ul {
     color: rgb(255, 255, 255);
 }
 ul .logo {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border-right: 50px solid rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
     text-align: left;
 }
-ul .logo:hover{ 
-    color: rgb(255, 255, 255);
-}
+
 
 
 /*Make the character images by scaling
